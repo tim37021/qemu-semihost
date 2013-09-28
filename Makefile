@@ -1,8 +1,8 @@
 all:
-	@echo "Please execute ./test.sh"
+	@echo "Please execute ./run.sh"
 
 clean:
-	rm -f hello.elf
+	rm -f semihost.elf
 
 distclean: clean
 	rm -rf qemu/build
